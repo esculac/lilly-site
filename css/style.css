@@ -1,0 +1,87 @@
+body {
+	font-family: 'Italiana', serif !important;
+	overflow: hidden;
+	background: url("../images/city.jpg") 60% 20%;
+}
+#links {
+	background: gray;
+	color: black;
+	text-decoration: none;
+	width: 150px;
+	margin: 0px auto;
+	margin-top: 10%;
+	padding: 300px;
+}
+
+
+#title {
+	position: absolute;
+	font-size: 70px;
+	text-align: center;
+	color: white;
+	width: 100%;
+	margin: 0px auto;
+	margin-top: 20%;
+}
+
+
+
+#navbutton-wrapper {
+	height: 100px;
+	width: 500px;
+	bottom: 50px;
+	position: absolute;
+	left: 50%;
+ 	margin-left: -250px;
+}
+.navbutton {
+	text-decoration:none; 
+	color: white !important;
+	cursor: pointer !important;
+	width: 25%;
+	padding: 10px;
+	position: relative;
+	margin-left: 10px;
+	border: 1px solid yellow !important;
+	display: block;
+	margin-top: 0px;
+}
+
+.navbutton:hover{
+	text-decoration:none; 
+	color:green !important;
+}
+
+.navbutton:active{
+	text-decoration:none; 
+	color:green;
+}
+
+
+#content-wrapper { 
+	position: absolute;
+	font-size: 70px;
+	text-align: center;
+	color: white;
+	height: 500px;
+	width: 800px;
+	left: 50%;
+ 	margin-left: -400px;
+	margin-top: 15%;
+
+	border: 1px solid white;
+ }
+
+ /* Gallery Page */
+
+ 
+/* Angular Animation control */
+
+.page-home.ng-enter           {animation: fadeIn 1s; z-index: 8888; }
+.page-home.ng-leave           {animation: fadeOut 0.5s; z-index: 9999; }
+
+.page-about.ng-enter           {animation: slideInLeft 0.75s; z-index: 8888; }
+.page-about.ng-leave           {animation: slideOutLeft 0.75s; z-index: 9999; }
+
+.page-gallery.ng-enter           {animation: slideInRight 0.75s; z-index: 8888; }
+.page-gallery.ng-leave           {animation: slideOutRight 0.75s; z-index: 9999; }
